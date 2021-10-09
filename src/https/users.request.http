@@ -1,0 +1,38 @@
+### GET request: for all users
+GET http://localhost:3000/users
+Accept: application/json
+## // ⚫️⚫️☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
+### GET request: for user by :id
+GET http://localhost:3000/user/2
+Accept: application/json
+## // ⚫️⚫️☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
+### POST request: to create a user
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+  "firstname": "forbez",
+  "lastname": "Under Pressure",
+  "email": "tblastingshots23@gmail.com"
+}
+### // ⚫️⚫️☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
+### PUT request: to update a user by :id
+PUT http://localhost:3000/user/1
+Content-Type: application/json
+
+{
+  "firstname": "Nanafdsh",
+  "lastname": "Licious",
+  "email": "licious78@gmail.com"
+}
+
+### // ⚫️⚫️☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
+### DELETE request: to delete a user by :id
+DELETE http://localhost:3000/user/2
+Content-Type: application/json
+### // ⚫️⚫️☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰☰
+
